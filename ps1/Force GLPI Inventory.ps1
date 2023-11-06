@@ -1,0 +1,1 @@
+powershell.exe -WindowStyle Hidden -Command "cd 'C:\Program Files\GLPI-Agent\perl\bin'; Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force; Start-Process -FilePath 'C:\Program Files\GLPI-Agent\perl\bin\glpi-agent.exe' -ArgumentList 'glpi-agent %*' -NoNewWindow -Wait"
